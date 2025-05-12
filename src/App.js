@@ -11,7 +11,7 @@ import AboutUs from './pages/AboutUs';
 
 const App = () => {
   return (
-    <Router>
+    <Router basename="/asset-eye-real-estate">
       <div className="d-flex flex-column min-vh-100 bg-black">
         <Header />
         <main className="flex-fill">
@@ -19,9 +19,9 @@ const App = () => {
             <Route path="/" element={<Home />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/villa" element={<Villa />} />
-              <Route path="/site" element={<Site />} />
-              <Route path="/flat" element={<Flat />} />
-              <Route path='/aboutus' element={<AboutUs />}/>
+            <Route path="/site" element={<Site />} />
+            <Route path="/flat" element={<Flat />} />
+            <Route path="/aboutus" element={<AboutUs />} />
           </Routes>
         </main>
         <Footer />
