@@ -1,0 +1,142 @@
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.home-hero {
+  background: linear-gradient(to right, #111111cc, #000000cc), url('./assets/your-background.jpg') no-repeat center center/cover;
+  height: 100vh;
+}
+
+.btn-animated {
+  transition: all 0.3s ease;
+  transform: translateY(0);
+  border: 1px solid #ffc107;
+  /* Gold border */
+  box-shadow: none;
+}
+
+.btn-animated:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(255, 193, 7, 0.2);
+  /* subtle shadow */
+  background-color: #e6ac00;
+  /* slightly deeper gold */
+  border-color: #000;
+}
+
+.form-control-custom {
+  background-color: #1b1b1b;
+  border: 1px solid #444;
+  color: #fff;
+  border-radius: 8px;
+  padding: 10px 12px;
+  transition: border-color 0.3s ease;
+}
+
+.form-control-custom:focus {
+  border-color: #ffc107;
+  box-shadow: 0 0 0 0.2rem rgba(255, 193, 7, 0.25);
+  background-color: #1b1b1b;
+  color: #fff;
+}
+
+.btn-animated {
+  transition: all 0.3s ease;
+  border: 1px solid #ffc107;
+  background-color: #ffc107;
+  color: #000;
+  font-weight: 500;
+  border-radius: 8px;
+}
+
+.btn-animated:hover {
+  background-color: #e6ac00;
+  border-color: #e6ac00;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(255, 193, 7, 0.15);
+}
+
+.form-control-custom::placeholder {
+  color: #ccc;
+  /* or #fff for pure white */
+  opacity: 1;
+  /* ensures visibility */
+}
+
+
+.footer-section {
+  background-color: #212529;
+  color: #ddd;
+  padding: 60px 20px 30px;
+}
+
+.footer-title {
+  color: #ffc107;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.footer-subtitle {
+  color: #ffc107;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.footer-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-list li {
+  margin-bottom: 8px;
+  color: #ccc;
+  cursor: default;
+}
+
+.footer-text {
+  color: #bbb;
+  line-height: 1.6;
+}
+
+.text-muted-info {
+  color: #ccc;
+}
+
+.footer-list li {
+  margin-bottom: 8px;
+  color: #ccc;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.footer-list li:hover {
+  color: #ffc107;
+  transform: translateX(5px);
+}
+
+.about-section {
+  background-color: #111;
+  color: #eee;
+  padding: 60px 20px;
+}
+
+.section-title {
+  color: #ffc107;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.about-text {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #ccc;
+}
+
+
+.nav-link.active {
+  color: #ffc107 !important;
+  border-bottom: 1px solid  #ffc107 !important;
+}
