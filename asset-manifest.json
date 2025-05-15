@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/asset-eye-real-estate/static/css/main.761f9b15.css",
-    "main.js": "/asset-eye-real-estate/static/js/main.a511ea17.js",
+    "main.js": "/asset-eye-real-estate/static/js/main.176aea43.js",
     "static/media/site3.jpg": "/asset-eye-real-estate/static/media/site3.9b2e7f5bbf938c15d911.jpg",
     "static/media/property2.jpg": "/asset-eye-real-estate/static/media/property2.e2e49da36be38eda9734.jpg",
     "static/media/flat1.jpg": "/asset-eye-real-estate/static/media/flat1.8f1ac73acba6894036b5.jpg",
@@ -15,10 +15,10 @@
     "static/media/property1.jpg": "/asset-eye-real-estate/static/media/property1.7c2812fb307b78dc7f97.jpg",
     "index.html": "/asset-eye-real-estate/index.html",
     "main.761f9b15.css.map": "/asset-eye-real-estate/static/css/main.761f9b15.css.map",
-    "main.a511ea17.js.map": "/asset-eye-real-estate/static/js/main.a511ea17.js.map"
+    "main.176aea43.js.map": "/asset-eye-real-estate/static/js/main.176aea43.js.map"
   },
   "entrypoints": [
     "static/css/main.761f9b15.css",
-    "static/js/main.a511ea17.js"
+    "static/js/main.176aea43.js"
   ]
 }
