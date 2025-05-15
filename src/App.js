@@ -15,7 +15,7 @@ const App = () => {
       <div className="d-flex flex-column min-vh-100 bg-black">
         <Header />
         <main className="flex-fill">
-          <Routes>
+          <Routes> 
             <Route path="/" element={<Home />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/villa" element={<Villa />} />
