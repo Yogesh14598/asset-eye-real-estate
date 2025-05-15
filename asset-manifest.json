@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/asset-eye-real-estate/static/css/main.761f9b15.css",
+    "main.js": "/asset-eye-real-estate/static/js/main.a511ea17.js",
+    "static/media/site3.jpg": "/asset-eye-real-estate/static/media/site3.9b2e7f5bbf938c15d911.jpg",
+    "static/media/property2.jpg": "/asset-eye-real-estate/static/media/property2.e2e49da36be38eda9734.jpg",
+    "static/media/flat1.jpg": "/asset-eye-real-estate/static/media/flat1.8f1ac73acba6894036b5.jpg",
+    "static/media/flat4.jpg": "/asset-eye-real-estate/static/media/flat4.7afdff8be20d4fc38535.jpg",
+    "static/media/villa3.jpg": "/asset-eye-real-estate/static/media/villa3.133c3fff2fb9f3f7eefc.jpg",
+    "static/media/your-background.jpg": "/asset-eye-real-estate/static/media/your-background.3b0b39e532f29a63102d.jpg",
+    "static/media/site1.jpg": "/asset-eye-real-estate/static/media/site1.d42e3e817670739c6e2e.jpg",
+    "static/media/site2.jpg": "/asset-eye-real-estate/static/media/site2.3f7c42e6fade0e33cb58.jpg",
+    "static/media/flat2.jpg": "/asset-eye-real-estate/static/media/flat2.3007576865293df493cc.jpg",
+    "static/media/logo.png": "/asset-eye-real-estate/static/media/logo.1e501c0a838e2ff73d72.png",
+    "static/media/property1.jpg": "/asset-eye-real-estate/static/media/property1.7c2812fb307b78dc7f97.jpg",
+    "index.html": "/asset-eye-real-estate/index.html",
+    "main.761f9b15.css.map": "/asset-eye-real-estate/static/css/main.761f9b15.css.map",
+    "main.a511ea17.js.map": "/asset-eye-real-estate/static/js/main.a511ea17.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.761f9b15.css",
+    "static/js/main.a511ea17.js"
+  ]
+}
