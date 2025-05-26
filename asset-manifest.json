@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/asset-eye-real-estate/static/css/main.761f9b15.css",
-    "main.js": "/asset-eye-real-estate/static/js/main.176aea43.js",
+    "main.css": "/asset-eye-real-estate/static/css/main.3bae8c2c.css",
+    "main.js": "/asset-eye-real-estate/static/js/main.f16e0226.js",
     "static/media/site3.jpg": "/asset-eye-real-estate/static/media/site3.9b2e7f5bbf938c15d911.jpg",
     "static/media/property2.jpg": "/asset-eye-real-estate/static/media/property2.e2e49da36be38eda9734.jpg",
     "static/media/flat1.jpg": "/asset-eye-real-estate/static/media/flat1.8f1ac73acba6894036b5.jpg",
@@ -14,11 +14,11 @@
     "static/media/logo.png": "/asset-eye-real-estate/static/media/logo.1e501c0a838e2ff73d72.png",
     "static/media/property1.jpg": "/asset-eye-real-estate/static/media/property1.7c2812fb307b78dc7f97.jpg",
     "index.html": "/asset-eye-real-estate/index.html",
-    "main.761f9b15.css.map": "/asset-eye-real-estate/static/css/main.761f9b15.css.map",
-    "main.176aea43.js.map": "/asset-eye-real-estate/static/js/main.176aea43.js.map"
+    "main.3bae8c2c.css.map": "/asset-eye-real-estate/static/css/main.3bae8c2c.css.map",
+    "main.f16e0226.js.map": "/asset-eye-real-estate/static/js/main.f16e0226.js.map"
   },
   "entrypoints": [
-    "static/css/main.761f9b15.css",
-    "static/js/main.176aea43.js"
+    "static/css/main.3bae8c2c.css",
+    "static/js/main.f16e0226.js"
   ]
 }
