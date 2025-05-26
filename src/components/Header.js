@@ -64,7 +64,7 @@ const Header = () => {
                 className="btn-animated"
                 onClick={() => setShowLogin(true)}
               >
-                Login
+                Sign Up
               </Button>
             </Nav>
           </Navbar.Collapse>

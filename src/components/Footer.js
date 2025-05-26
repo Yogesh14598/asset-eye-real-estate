@@ -7,7 +7,7 @@ const Footer = () => {
       <Container>
         <Row>
           <Col md={5} className="mb-4">
-            <h5 className="footer-title">ASSET EYE REAL ESTATE</h5>
+            <h5 className="footer-title">ASSET EYE Private Limited</h5>
             <p className="footer-text w-75">
               Building dreams into reality since 1990. Quality construction
               services for residential and commercial projects.
@@ -28,14 +28,13 @@ const Footer = () => {
             <h6 className="footer-subtitle">Contact Us</h6>
             <ul className="footer-list">
               <li>
-                <strong>Phone:</strong> +91 7483725259
+                <strong>Phone:</strong> +91 9164030474
               </li>
               <li>
-                <strong>Email:</strong> info@asseteyeconstructions.com
+                <strong>Email:</strong> info@assetseye.com
               </li>
               <li>
-                <strong>Address:</strong> 123 Real Estate Way, Building
-                District, City - 560001
+                <strong>Address:</strong> No 36, 3rd floor, TM Complex, 1st Stage KHB Colony, Basaveshwaranagar, Bangalore - 560079
               </li>
             </ul>
           </Col>
