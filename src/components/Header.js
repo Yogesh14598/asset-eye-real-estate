@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Navbar, Nav, Button, Container } from "react-bootstrap";
 import LoginModal from "./LoginModal";
-import logo from "../assets/logo.png";
+import logo from "../assets/c2dlogo.jpg";
 import { Link, useLocation } from "react-router-dom";
 
 const Header = () => {
@@ -25,13 +25,17 @@ const Header = () => {
     <>
       <Navbar expand="lg" bg="dark" variant="dark" sticky="top">
         <div className="container-fluid">
-          <Navbar.Brand href="/">
+          <Navbar.Brand as={Link} to="/">
             <img
               src={logo}
-              height="50px"
-              width={"90px"}
+              height="45px"
+              width="auto"
               alt="Code2Dream Logo"
-              style={{ marginRight: "10px" }}
+              style={{ 
+                marginRight: "10px",
+                borderRadius: "8px",
+                objectFit: "contain"
+              }}
             />
             Code2Dream
           </Navbar.Brand>

@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import DemoSession from "./DemoSession";
 import FAQ from "./FAQ";
 import LatestUpdates from "./LatestUpdates";
+import backgroundImage from "../assets/backgroundc2c.jpg";
 
 const testimonials = [
   {
@@ -37,10 +38,11 @@ const Home = () => {
       <div 
         className="home-hero d-flex align-items-center justify-content-center text-center text-white"
         style={{
-          background: 'linear-gradient(135deg, rgba(0,0,0,0.8), rgba(0,0,0,0.6)), url("https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1500&q=80")',
-          backgroundSize: 'cover',
+          background: `linear-gradient(135deg, rgba(0,0,0,0.8), rgba(0,0,0,0.6)), url("${backgroundImage}")`,
+          backgroundSize: 'contain',
           backgroundPosition: 'center',
           backgroundAttachment: 'fixed',
+          backgroundRepeat: 'no-repeat',
           minHeight: '80vh',
           position: 'relative'
         }}
