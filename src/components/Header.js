@@ -30,10 +30,10 @@ const Header = () => {
               src={logo}
               height="50px"
               width={"90px"}
-              alt="Asset Eye Logo"
+              alt="Code2Dream Logo"
               style={{ marginRight: "10px" }}
             />
-            Asset Eye
+            Code2Dream
           </Navbar.Brand>
           <Navbar.Toggle />
           <Navbar.Collapse>
@@ -46,14 +46,11 @@ const Header = () => {
                 <Nav.Link as={Link} to="/aboutus" className={isActive("/aboutus")}>
                 About Us
               </Nav.Link>
-              <Nav.Link as={Link} to="/villa" className={isActive("/villa")}>
-                Villa
+              <Nav.Link as={Link} to="/courses" className={isActive("/courses")}>
+                Courses
               </Nav.Link>
-              <Nav.Link as={Link} to="/flat" className={isActive("/flat")}>
-                Flat
-              </Nav.Link>
-              <Nav.Link as={Link} to="/site" className={isActive("/site")}>
-                Site
+              <Nav.Link as={Link} to="/training" className={isActive("/training")}>
+                Training Programs
               </Nav.Link>
               <Nav.Link as={Link} to="/contact" className={isActive("/contact")}>
                 Contact
@@ -64,7 +61,7 @@ const Header = () => {
                 className="btn-animated"
                 onClick={() => setShowLogin(true)}
               >
-                Sign Up
+                Enroll Now
               </Button>
             </Nav>
           </Navbar.Collapse>
