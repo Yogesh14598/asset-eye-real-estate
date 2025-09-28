@@ -3,22 +3,25 @@ import { motion } from "framer-motion";
 
 const testimonials = [
   {
-    name: "John Doe",
+    name: "Rajesh Kumar",
     feedback:
-      "Asset Eye helped me find the perfect home. The process was smooth and professional.",
+      "Code2Dream helped me transition from mechanical engineer to Full Stack Developer with 6.5 LPA package!",
     location: "Bangalore",
+    course: "Full Stack Development",
   },
   {
     name: "Priya Sharma",
     feedback:
-      "Highly recommend Asset Eye for their transparent process and dedicated team.",
+      "Amazing training institute! Got placed as Data Analyst with 7.5 LPA after 12 years career break.",
     location: "Hyderabad",
+    course: "Data Science",
   },
   {
     name: "Arun Patel",
     feedback:
-      "I was able to purchase a commercial property with ease. Very happy with the service.",
+      "Excellent hands-on training in Python. Now working as AI/ML Engineer with 5 LPA package.",
     location: "Chennai",
+    course: "Python & Machine Learning",
   },
 ];
 
@@ -46,7 +49,7 @@ const TestimonialSection = () => (
         transition={{ duration: 0.8 }}
         style={{ fontWeight: "bold" }}
       >
-        What Our Clients Say
+        What Our Students Say
       </motion.h2>
 
       <motion.div
@@ -76,7 +79,7 @@ const TestimonialSection = () => (
                     </Card.Text>
                     <Card.Title className="mt-3">{testimonial.name}</Card.Title>
                     <Card.Subtitle>
-                      {testimonial.location}
+                      {testimonial.course} • {testimonial.location}
                     </Card.Subtitle>
                   </Card.Body>
                 </Card>
